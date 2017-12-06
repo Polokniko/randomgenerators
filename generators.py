@@ -16,8 +16,8 @@ def genstr(length):
      """
      Will generate a random string of ASCII characters with the length of the given value
      """
-		word = ''
-		chars = [randint(0, 93) for i in range(length)]
-		for i in chars:
-			word += """`1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>? """[i]
-		return(word)
+	word = ''
+	chars = [randint(0, 93) for i in range(length)]
+	for i in chars:
+		word += """`1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>? """[i]
+	return word
